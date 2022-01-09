@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.footer-heading {
+  font-family: 'Bree Serif';
+  color: #f8fafc;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: normal;
+}
+
+.blue {
+  color: #007bff;
+}
+
+.footer-text {
+  color: #94a3b8;
+  margin-top: 0;
+}
+
+.icons-container {
+  display: flex;
+  font-size: 42px;
+  color: #cbd5e1;
+}
+
+.footer-icon {
+  margin: 20px;
+}

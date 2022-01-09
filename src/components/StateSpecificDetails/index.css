@@ -1,0 +1,203 @@
+.state-specific-container {
+  background-color: #161625;
+}
+
+.state-meta-container {
+  display: flex;
+  background-color: #161625;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.state-updated-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.state-heading {
+  background-color: #0284c716;
+  color: #0ea5e9;
+  padding: 5px 15px 5px 15px;
+  font-size: 24px;
+  border-radius: 40px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.last-update {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.tested-title {
+  font-size: 16px;
+  color: #94a3b8;
+  margin-bottom: 0;
+}
+
+.tested-stats {
+  color: #94a3b8;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.tested-stats-container {
+  text-align: right;
+}
+
+.top-districts-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.top-districts-heading {
+  color: #ff073a;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.top-districts-list-container {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.state-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.district-list-item {
+  display: flex;
+  width: 25%;
+  color: #94a3b8;
+  align-items: center;
+}
+
+.district-stats-count {
+  order: 0;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.district-name {
+  order: 1;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.bar-chart-state-container {
+  display: flex;
+  justify-content: center;
+  height: 431px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.timeline-charts-container {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+.timeline-charts-parent-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.confirmed-bg-color {
+  background-color: #331427;
+  border-radius: 10px;
+}
+
+.recovered-bg-color {
+  background-color: #182829;
+  border-radius: 10px;
+}
+
+.active-bg-color {
+  background-color: #132240;
+  border-radius: 10px;
+}
+
+.deceased-bg-color {
+  background-color: #1c1c2b;
+  border-radius: 10px;
+}
+
+.tested-bg-color {
+  background-color: #230f41;
+  border-radius: 10px;
+}
+
+.daily-trends-heading {
+  color: #cbd5e1;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .district-list-item {
+    width: 50%;
+  }
+
+  .top-districts-container,
+  .state-meta-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .tested-stats {
+    font-size: 18px;
+  }
+
+  .state-heading {
+    font-size: 18px;
+  }
+
+  .last-update {
+    font-size: 12px;
+  }
+
+  .district-stats-count {
+    font-size: 14px;
+  }
+
+  .tested-stats-container {
+    align-self: baseline;
+  }
+
+  .tested-stats {
+    margin-top: 10px;
+  }
+
+  .district-name {
+    font-size: 12px;
+  }
+
+  .bar-chart-state-container {
+    height: 231px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .timeline-charts-parent-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .timeline-charts-container {
+    height: 231px;
+  }
+}

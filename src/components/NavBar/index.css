@@ -1,0 +1,101 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  justify-content: space-between;
+  background-color: #1e1e30;
+  list-style: none;
+  margin-top: 0;
+}
+
+.navbar-menu-large {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.logo-name {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #f8fafc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.color-blue {
+  color: #007bff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #94a3b8;
+  margin: 12px;
+}
+
+.nav-link:active {
+  color: #f8fafc;
+}
+
+.menu-button {
+  background: transparent;
+  border-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-link-button {
+  background: transparent;
+  border-width: 0;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.navbar-menu-small {
+  display: none;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .navbar-menu-large {
+    display: none;
+  }
+
+  .navbar-menu-small {
+    display: block;
+  }
+
+  .navbar-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.menu-icon {
+  font-size: 34px;
+  color: #f8fafc;
+}
+
+.toggle-menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #161625;
+}
+
+.close-icon {
+  color: #f8fafc;
+  font-size: 34px;
+  padding: 5px;
+}

@@ -1,0 +1,105 @@
+.state-wise-data-table-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow-x: auto;
+}
+
+.table-container {
+  padding-left: 0;
+  list-style: none;
+  border: 1px solid #94a3b8;
+  background-color: #1e1e30;
+  border-radius: 5px;
+  min-width: 839px;
+}
+
+.table-header {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #94a3b8;
+}
+
+.state-ut-sort-container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 20%;
+  color: #f8fafc;
+}
+
+.states-ut-text {
+  font-weight: 700;
+}
+
+.sort-button {
+  background: transparent;
+  border-width: 0;
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.table-header-title {
+  flex-basis: 16%;
+  text-align: right;
+  color: #f8fafc;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.sort-icon {
+  font-size: 24px;
+  color: #94a3b8;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleY(-1);
+}
+
+.table-row {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #f8fafc;
+}
+
+.state-name {
+  flex-basis: 20%;
+}
+
+.confirmed-cases-number {
+  flex-basis: 16%;
+  text-align: right;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.confirmed-color {
+  color: #ff073a;
+}
+
+.active-color {
+  color: #007bff;
+}
+
+.recovered-color {
+  color: #28a745;
+}
+
+.deceased-color {
+  color: #6c757d;
+}
+
+.population-color {
+  color: #94a3b8;
+}
+
+@media (max-width: 800px) {
+  .state-wise-data-table-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

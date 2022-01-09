@@ -1,0 +1,55 @@
+.about-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #161625;
+  overflow: auto;
+  min-height: 90vh;
+}
+
+.faqs-container {
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-heading {
+  color: #f8fafc;
+  font-size: 42px;
+  line-height: 64px;
+  font-weight: 500;
+}
+
+.about-last-update {
+  color: #94a3b8;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-vaccine-dist {
+  color: #e2e8f0;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.faq-question {
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.faq-answer {
+  color: #007bff;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.loader-container {
+  background-color: #161625;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frag-about {
+  background-color: #161625;
+}

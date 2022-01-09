@@ -1,0 +1,74 @@
+.stats-card-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  flex-grow: 1;
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.stat-card-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.stat-card-count {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.confirmed-color {
+  color: #ff073a;
+}
+
+.active-color {
+  color: #007bff;
+}
+
+.recovered-color {
+  color: #28a745;
+}
+
+.deceased-color {
+  color: #6c757d;
+}
+
+.confirmed-active {
+  background-color: #331427;
+  cursor: pointer;
+}
+
+.active-active {
+  background-color: #132240;
+  cursor: pointer;
+}
+
+.recovered-active {
+  background-color: #182829;
+  cursor: pointer;
+}
+
+.deceased-active {
+  background-color: #212230;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .stats-card {
+    width: 40%;
+  }
+}
