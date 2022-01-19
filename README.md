@@ -4,4 +4,4 @@ The website is responsive and both **class componnents** and **functional compon
 
 Third party packages like **recharts**, **react-icons** and **react-loader-spinner** are used.
 
-Link to the live site <a target="_blank" href="msanthoshcovid.ccbp.tech">here</a>
+Link to the live site <a target="_blank" href="https://msanthoshcovid.ccbp.tech">here</a>
